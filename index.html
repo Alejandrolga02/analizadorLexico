@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto LEA - Analizador Léxico</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/logo_oficial.png" type="image/x-icon">
+</head>
+<body>
+    <div>
+        <nav class="navbar bg-info">
+            <div class="container-fluid">
+              <span class="navbar-brand mb-0 h1 text-dark fw-bold">Analizador Lexico</span>
+            </div>
+        </nav>
+    </div>
+
+    <div class="container my-4">
+        <div class="row text-center">
+            <div class="col-12 col-md-5">
+                <label class="text-dark mb-2 fw-bold fs-4" for="language">ESJS</label>
+                <textarea class="form-control" placeholder="Introduzca codigo de Lenguaje" id="language"></textarea>
+            </div>
+
+            <div class="col-md-2 col-12 my-md-auto my-4">
+                <button class="btn btn-primary w-100" id="compile">Compilar</button>
+                <button class="btn btn-secondary w-100 my-4" id="execute">Ejecutar</button>  
+                <button class="btn btn-success w-100" id="clear">Limpiar</button>  
+            </div>
+
+            <div class="col-12 col-md-5">
+                <label class="text-dark mb-2 fw-bold fs-4" for="javascript">Javascript</label>
+                <textarea class="form-control" placeholder="Introduzca codigo de Javascript" id="javascript"></textarea>
+            </div>
+        </div>   
+    </div>
+
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-12 col-md-6">
+                <table class="table table-hover table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Javascript</th>
+                            <th scope="col">ESJS</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>var</td>
+                            <td>global</td>                    
+                        </tr>
+                        <tr>
+                            <td>let</td>
+                            <td>declarar</td>                    
+                        </tr>
+                        <tr>
+                            <td>const</td>
+                            <td>constante</td>                    
+                        </tr>
+                        <tr>
+                            <td>function</td>
+                            <td>funcion</td>                    
+                        </tr>
+                        <tr>
+                            <td>goto</td>
+                            <td>ir</td>                    
+                        </tr>
+                        <tr>
+                            <td>true</td>
+                            <td>verdadero</td>                    
+                        </tr>
+                        <tr>
+                            <td>false</td>
+                            <td>falso</td>                    
+                        </tr>
+                        <tr>
+                            <td>if</td>
+                            <td>si</td>                    
+                        </tr>
+                        <tr>
+                            <td>for</td>
+                            <td>para</td>                    
+                        </tr>
+                        <tr>
+                            <td>switch</td>
+                            <td>enCasoDe</td>                    
+                        </tr>
+                        <tr>
+                            <td>while</td>
+                            <td>mientras</td>                    
+                        </tr>
+                        <tr>
+                            <td>do</td>
+                            <td>hacer</td>                    
+                        </tr>
+                        <tr>
+                            <td>break</td>
+                            <td>salir</td>                    
+                        </tr>
+                        
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <table class="table table-hover table-striped">
+                    <thead class="table-light">
+                        <tr>
+                            <th scope="col">Javascript</th>
+                            <th scope="col">ESJS</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <td>var</td>
+                            <td>global</td>                    
+                        </tr>
+                        <tr>
+                            <td>let</td>
+                            <td>declarar</td>                    
+                        </tr>
+                        <tr>
+                            <td>const</td>
+                            <td>constante</td>                    
+                        </tr>
+                        <tr>
+                            <td>function</td>
+                            <td>funcion</td>                    
+                        </tr>
+                        <tr>
+                            <td>for</td>
+                            <td>para</td>                    
+                        </tr>
+                        <tr>
+                            <td>addEventListener</td>
+                            <td>escucharEventos</td>                    
+                        </tr>
+                        <tr>
+                            <td>true</td>
+                            <td>verdadero</td>                    
+                        </tr>
+                        <tr>
+                            <td>false</td>
+                            <td>falso</td>                    
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>                    
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>                    
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>                    
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>                    
+                        </tr>
+                        <tr>
+                            <td>Mark</td>
+                            <td>Otto</td>                    
+                        </tr>
+                        
+                    </tbody>
+                </table>             
+            </div>            
+        </div>
+    </div>
+
+    <script src="js/beautify.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

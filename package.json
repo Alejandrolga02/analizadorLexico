@@ -1,0 +1,13 @@
+{
+  "name": "analizadorlexico",
+  "version": "1.0.0",
+  "description": "Analizador lexico proyecto Lenguajes y Automatas",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Ivan Lizarraga Rojas",
+  "license": "ISC",
+  "dependencies": {
+    "js-beautify": "^1.14.6"
+  }
+}
